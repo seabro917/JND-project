@@ -18,8 +18,21 @@ Third tab: (description goes here...)
 
 
 ## About our paper
-`JND_summer_project` folder contains codes for generating some of the figures in our research paper "*SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning*", the paper can be found [here](https://link.springer.com/article/10.1007/s41233-020-00034-1).
+`JND_summer_project` folder contains codes for generating some of the figures in our research paper "*SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning*", the paper can be found [here](https://link.springer.com/article/10.1007/s41233-020-00034-1). The full model implementation code can be found in this [repo](https://github.com/Linhanhe/SUR-FeatNet).
 
 
 <img src = "paper_figs/image_5_first_JND.png" width = "273"/> <img src = "paper_figs/image_5_second_JND.png" width = "273"/> <img src = "paper_figs/image_5_third_JND.png" width = "273"/>
 <img src = "paper_figs/image_14_first_JND.png" width = "273"/> <img src = "paper_figs/image_14_second_JND.png" width = "273"/> <img src = "paper_figs/image_14_third_JND.png" width = "273"/>
+
+
+Please consider citing our paper using the following entry if you find the above information useful to you
+```@article{lin2020featnet,
+  title={SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning},
+  author={Lin, Hanhe and Hosu, Vlad and Fan, Chunling and Zhang, Yun and Mu, Yuchen and Hamzaoui, Raouf and Saupe, Dietmar},
+  journal={Quality and User Experience},
+  volume={5},
+  pages={1--23},
+  year={2020},
+  publisher={Springer}
+}
+```
