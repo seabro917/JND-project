@@ -21,5 +21,5 @@ Third tab: (description goes here...)
 `JND_summer_project` folder contains codes for generating some of the figures in our research paper "*SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning*", the paper can be found [here](https://link.springer.com/article/10.1007/s41233-020-00034-1).
 
 
-<img src = "paper_figs/image_5_first_JND.png" width = "270"/> <img src = "paper_figs/image_5_second_JND.png" width = "270"/> <img src = "paper_figs/image_5_third_JND.png" width = "270"/>
-<img src = "paper_figs/image_14_first_JND.png" width = "280"/> <img src = "paper_figs/image_14_second_JND.png" width = "280"/> <img src = "paper_figs/image_14_third_JND.png" width = "280"/>
+<img src = "paper_figs/image_5_first_JND.png" width = "275"/> <img src = "paper_figs/image_5_second_JND.png" width = "275"/> <img src = "paper_figs/image_5_third_JND.png" width = "275"/>
+<img src = "paper_figs/image_14_first_JND.png" width = "277"/> <img src = "paper_figs/image_14_second_JND.png" width = "277"/> <img src = "paper_figs/image_14_third_JND.png" width = "277"/>
