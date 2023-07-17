@@ -18,14 +18,16 @@ Third tab: (description goes here...)
 
 
 ## About our paper
-`JND_summer_project` folder contains codes for generating some of the figures in our research paper "*SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning*", the paper can be found [here](https://link.springer.com/article/10.1007/s41233-020-00034-1). The full model implementation code can be found in this [repo](https://github.com/Linhanhe/SUR-FeatNet).
+`JND_summer_project` folder contains codes for generating the following figures in our research paper "*SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning*", the paper can be found [here](https://link.springer.com/article/10.1007/s41233-020-00034-1). The full model implementation code can be found in this [repo](https://github.com/Linhanhe/SUR-FeatNet).
+
+`nll_values` and `p_values` folders contain the data of non-negative log-likelihood values and p-values evaluated on the samples in [MCL-JCI](https://mcl.usc.edu/mcl-jci-dataset/) and [JND-Pano](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_42) datasets, based on the evaluating algorithm described in our paper.
 
 
 <img src = "paper_figs/image_5_first_JND.png" width = "273"/> <img src = "paper_figs/image_5_second_JND.png" width = "273"/> <img src = "paper_figs/image_5_third_JND.png" width = "273"/>
 <img src = "paper_figs/image_14_first_JND.png" width = "273"/> <img src = "paper_figs/image_14_second_JND.png" width = "273"/> <img src = "paper_figs/image_14_third_JND.png" width = "273"/>
 
 
-Please consider citing our paper using the following entry if you find the above information useful to you
+Please consider citing our paper with the following entry if you find the above information useful to you
 ```@article{lin2020featnet,
   title={SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning},
   author={Lin, Hanhe and Hosu, Vlad and Fan, Chunling and Zhang, Yun and Mu, Yuchen and Hamzaoui, Raouf and Saupe, Dietmar},
