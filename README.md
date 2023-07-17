@@ -15,9 +15,20 @@ This project mainly includes the following works:
 #### Fitting raw JND data with different parametric PDF models
 
 <p align = "center">
- <img src = "JND_other_figs/fitting_JND.png" width = "420"/> <img src = "JND_other_figs/fitting_SUR.png" width = "420"/>
+ <img src = "JND_other_figs/fitting_JND.png" width = "400"/> <img src = "JND_other_figs/fitting_SUR.png" width = "400"/>
 </p>
 
+#### Modeling the relationship between bitrate and QP value
+<p align = "center">
+ <img src = "JND_other_figs/bitrate_index_19.png" width = "400"/> <img src = "JND_other_figs/bitrate_index_59.png" width = "400"/>
+</p>
+
+#### Testing the main algorithm
+<p align = "center">
+ <img src = "JND_other_figs/main_algorithm.png" width = "400"/> 
+</p>
+
+### GUI APP - JND Figure
 I also wrote a GUI APP which summarized all the above works, it mainly contains three tabs - correspond to the three major works:
 
 - First tab - Goodness-of-fit evaluation: Given different videos and corresponding JND data in the dataset, fit different PDF models to the raw data and use K-S test statistic for evaluating the goodness-of-fit (in our paper, instead of K-S test, we use A-D test, which is another hypothesis test. We utilize p-value of the hypothesis test and negative log-likelihood value of MLE as the evaluating metrics). 
@@ -45,9 +56,13 @@ I also wrote a GUI APP which summarized all the above works, it mainly contains 
 
 Specifically, the folder contains the codes for generating the following figures and tables. In `nll_values` and `p_values` folders, you can find the data shown in the table, that is; negative log-likelihood values of MLE and p-values of A-D test evaluated on the samples in [MCL-JCI](https://mcl.usc.edu/mcl-jci-dataset/) and [JND-Pano](https://link.springer.com/chapter/10.1007/978-3-030-00776-8_42) datasets, based on the evaluating algorithm described in our paper.
 
-
-<img src = "JND_paper_figs/image_5_first_JND.png" width = "273"/> <img src = "JND_paper_figs/image_5_second_JND.png" width = "273"/> <img src = "JND_paper_figs/image_5_third_JND.png" width = "273"/>
-<img src = "JND_paper_figs/image_14_first_JND.png" width = "273"/> <img src = "JND_paper_figs/image_14_second_JND.png" width = "273"/> <img src = "JND_paper_figs/image_14_third_JND.png" width = "273"/>
+<p align = "center">
+ <img src = "JND_paper_figs/image_5_first_JND.png" width = "273"/> <img src = "JND_paper_figs/image_5_second_JND.png" width = "273"/> <img src = "JND_paper_figs/image_5_third_JND.png" width = "273"/>
+ <img src = "JND_paper_figs/image_14_first_JND.png" width = "273"/> <img src = "JND_paper_figs/image_14_second_JND.png" width = "273"/> <img src = "JND_paper_figs/image_14_third_JND.png" width = "273"/>
+</p>
+<p align = "center">
+ <img src = "JND_paper_figs/JND_paper_table.jpg" width = "700"/> 
+</p>
 
 In this paper, we propose the first deep learning approach to predict SUR curves. The proposed approach relies on a siamese convolutional neural
 network, transfer learning, and deep feature learning. The model utilizes image pairs consisting of a reference image and a compressed image for training. Full model implementation code can be found in this [repo](https://github.com/Linhanhe/SUR-FeatNet).
