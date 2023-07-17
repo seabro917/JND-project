@@ -30,7 +30,7 @@ I also wrote a GUI APP which summarized all the above works, it mainly contains 
 <img src = "JND_app_figs/JND_app_3.jpg" width = "800"/>
 </p>
 
-**Note**: In order to run the APP correctly, you might need to modify some lines in the [code](https://github.com/seabro917/JND-project/blob/main/FYP_codes_to_be_submitted/App/JND_app_improved_upgraded.mlapp), which specify the data directory (I have already provided the data in three excel files `1280x720_1st.csv`, `1280x720_2nd.csv` and `1280x720_3rd.csv`).
+> **Note**: In order to run the APP correctly, you might need to modify some lines in the [code](https://github.com/seabro917/JND-project/blob/main/FYP_codes_to_be_submitted/App/JND_app_improved_upgraded.mlapp), which specify the data directory (I have already provided the data in three excel files `1280x720_1st.csv`, `1280x720_2nd.csv` and `1280x720_3rd.csv`).
 
 
 ## About our paper
