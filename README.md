@@ -9,7 +9,7 @@ This project mainly includes the following works:
 - Bitrate modeling: Model the relationship between [QP](https://trac.ffmpeg.org/wiki/Encode/H.264) value (compression parameter of H.264 scheme) and video bitrate.
 - Algorithm proposal: Design and implement a video compression algorithm based on JND and bitrate, compromising between user visual experience and cost of resources. Given a PDF model, a bitrate constraint, and a SUR (satisfied user rate) constraint, the proposed algorithm can return the JND point such that, when the original video is compressed with this JND point, the compressed video is able to satisfy all the specified constraints and maximize users' visual experience as much as possible at the same time.  
 
-
+> ***P.S.*** The satisfied user ratio (SUR) is the fraction of users that do not perceive any distortion when comparing the original image to its compressed version. In other words, it implies the fraction of users that will ***not*** notice the artifacts in the compressed video, i.e., ***"satisfied"*** by the compressed video in terms of visual experience.
 
 I also wrote a GUI APP which summarized all the above works, it mainly contains three tabs - correspond to the three major works:
 
@@ -25,7 +25,7 @@ I also wrote a GUI APP which summarized all the above works, it mainly contains 
 </p>
 
 
-- Third tab - Proposed algorithm: Given a specified PDF model, a bitrate constraint, and a SUR constraint (which implies how many users will **not** notice the artifacts in the compressed video, i.e., "satisfied" by the compressed video in terms of visual experience.), the proposed algorithm will output the found JND point.
+- Third tab - Proposed algorithm: Given a specified PDF model, a bitrate constraint, and a SUR constraint, the proposed algorithm will output the found JND point.
 <p align = "center">
 <img src = "JND_app_figs/JND_app_3.jpg" width = "800"/>
 </p>
@@ -45,7 +45,7 @@ Specifically, the folder contains the codes for generating the following figures
 In this paper, we propose the first deep learning approach to predict SUR curves. The proposed approach relies on a siamese convolutional neural
 network, transfer learning, and deep feature learning. The model utilizes image pairs consisting of a reference image and a compressed image for training. Full model implementation code can be found in this [repo](https://github.com/Linhanhe/SUR-FeatNet).
 
-Please consider citing our paper with the following entry if you find the above information useful to you
+Please consider citing our paper with the following entry if you find the above codes and information useful to you
 ```@article{lin2020featnet,
   title={SUR-FeatNet: Predicting the satisfied user ratio curve for image compression with deep feature learning},
   author={Lin, Hanhe and Hosu, Vlad and Fan, Chunling and Zhang, Yun and Mu, Yuchen and Hamzaoui, Raouf and Saupe, Dietmar},
