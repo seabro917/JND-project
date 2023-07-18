@@ -24,7 +24,7 @@ This project mainly includes the following works:
 
 #### Finding the most suitable PDF for modeling the JND samples
 <p align = "center">
- <img src = "JND_other_figs/test_first_JND.png" width = "290"/> <img src = "JND_other_figs/test_second_JND.png" width = "290"/> <img src = "JND_other_figs/test_third_JND.png" width = "290"/>
+ <img src = "JND_other_figs/test_first_JND.png" width = "400"/> <img src = "JND_other_figs/test_second_JND.png" width = "400"/> 
 </p>
 
 <p align = "center">
