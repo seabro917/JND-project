@@ -57,16 +57,16 @@ I also wrote a GUI APP which summarized all the above works, it mainly contains 
 - First tab - Goodness-of-fit evaluation: Given different videos and corresponding JND data in the dataset, fit different PDF models to the raw data and use K-S test statistic for evaluating the goodness-of-fit (in our paper, instead of K-S test, we use A-D test, which is another hypothesis test. We utilize p-value of the hypothesis test and negative log-likelihood value of MLE as the evaluating metrics). 
 
 <p align = "center">
-<img src = "JND_app_figs/JND_app_1.jpg" width = "800"/>
+<img src = "JND_app_figs/JND_app_1.jpg" width = "700"/>
 </p>
 
 <p align = "center">
  <sub>Fig. 5: First tab of the designed APP.</sub>
 </p>
 
-- Second tab - Bitrate modeling: Use three ground truth values of raw data to fit the exponential curve and model the relationship between QP values and bitrate of the videos in dataset.
+- Second tab - Bitrate modeling: Use three ground truth values of raw data to fit the exponential curve and model the relationship between QP values and the bitrate of the videos in the dataset.
 <p align = "center">
-<img src = "JND_app_figs/JND_app_2.jpg" width = "800"/>
+<img src = "JND_app_figs/JND_app_2.jpg" width = "700"/>
 </p>
 
 <p align = "center">
@@ -76,7 +76,7 @@ I also wrote a GUI APP which summarized all the above works, it mainly contains 
 
 - Third tab - Proposed algorithm: Given a specified PDF model, a bitrate constraint, and a SUR constraint, the proposed algorithm will output the found JND point.
 <p align = "center">
-<img src = "JND_app_figs/JND_app_3.jpg" width = "800"/>
+<img src = "JND_app_figs/JND_app_3.jpg" width = "700"/>
 </p>
 
 <p align = "center">
