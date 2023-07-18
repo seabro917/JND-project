@@ -22,13 +22,22 @@ This project mainly includes the following works:
  <sub>Fig. 1: JND sample histogram (left) and SUR curves (right) when different PDF models are considered.</sub>
 </p>
 
+#### Finding the most suitable PDF for modeling the JND samples
+<p align = "center">
+ <img src = "JND_other_figs/test_first_JND.png" width = "300"/> <img src = "JND_other_figs/test_second_JND.png" width = "300"/> <img src = "JND_other_figs/test_third_JND.png" width = "300"/>
+</p>
+
+<p align = "center">
+ <sub>Fig. 2: Number of times that the distribution fitting result passes the K-S hypothesis test when different PDF models are considered.</sub>
+</p>
+
 #### Modeling the relationship between bitrate and QP value
 <p align = "center">
  <img src = "JND_other_figs/bitrate_index_19.png" width = "400"/> <img src = "JND_other_figs/bitrate_index_59.png" width = "400"/>
 </p>
 
 <p align = "center">
- <sub>Fig. 2: Curve fitting for QP vs. bitrate, video clips with index 19 (left) and 59 (right).</sub>
+ <sub>Fig. 3: Curve fitting for QP vs. bitrate, video clips with index 19 (left) and 59 (right).</sub>
 </p>
 
 #### Testing the main algorithm
@@ -37,7 +46,7 @@ This project mainly includes the following works:
 </p>
 
 <p align = "center">
- <sub>Fig. 3: Ground truth results vs. results returned by the algorithm.</sub>
+ <sub>Fig. 4: Ground truth results vs. results returned by the algorithm.</sub>
 </p>
 
 
