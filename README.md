@@ -1,8 +1,8 @@
 # JND-project
  Codes for my undergraduate final year project and part of our research paper.
  
-## About my personal JND project
-`FYP_codes_to_be_submitted` folder contains the codes for my undergraduate final year projects which is about *Perceptual experience and deep learning-based image/video compression & quality evaluation* based on JND ([Just-Noticeable-Difference](https://en.wikipedia.org/wiki/Just-noticeable_difference)) concept, which is a metric that takes the human perceptual system into consideration when performing image/video quality assessment. 
+## About my B.Eng. JND project
+`FYP_codes_to_be_submitted` folder contains the codes for my undergraduate final year project which is about "*Perceptual experience and deep learning-based image/video compression & quality evaluation*" based on JND ([Just-Noticeable-Difference](https://en.wikipedia.org/wiki/Just-noticeable_difference)) concept, a metric that takes the human perceptual system into consideration when performing image/video quality assessment. 
 
 This project mainly includes the following works:
 - Goodness-of-fit evaluation: Find the most suitable PDF (probability density function) model that fits the distribution of the sample JND data in [VideoSet](https://www.sciencedirect.com/science/article/pii/S1047320317300950) dataset.
