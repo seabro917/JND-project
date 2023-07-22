@@ -51,8 +51,8 @@ This project mainly includes the following works:
 
 
 
-### Front end GUI APP - JND Figure
-I also wrote a GUI APP which summarized all the above works, it mainly contains three tabs - correspond to the three major works:
+### GUI APP - JND Figure
+I also wrote a GUI APP which summarized all the above works (separation of front and rear end), it mainly contains three tabs - correspond to the three major works:
 
 - First tab - Goodness-of-fit evaluation: Given different videos and corresponding JND data in the dataset, fit different PDF models to the raw data and use K-S test statistic for evaluating the goodness-of-fit (in our paper, instead of K-S test, we use A-D test, which is another hypothesis test. We utilize p-value of the hypothesis test and negative log-likelihood value of MLE as the evaluating metrics). 
 
